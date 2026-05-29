@@ -1,0 +1,35 @@
+export const APP_CONFIG = {
+  appTitle: "RA Competency Assessment Portal",
+  studyName: "Alexandria Comparative Stroke Study (ACSS)",
+  institution:
+    "Arab Academy For Science, Technology and Maritime Transport College of Medicine",
+  sponsorInstitution:
+    "Faculty of Medicine, Alexandria University, Alexandria, Egypt",
+  defaultSite: "Louran",
+  leadResearcher: "Mazen Mohamed Agha",
+  totalQuestions: 50,
+  marksPerQuestion: 2,
+  totalMarks: 100,
+  passPercentage: 85,
+  passScore: 85,
+  allowUnlimitedAttempts: true,
+  criticalFlagPolicy: "warning-only",
+  sites: [
+    "Louran",
+    "Elnozha",
+    "Mabaret Elasafra",
+    "Elandalusia",
+    "Elite",
+    "Semoha",
+    "Al Miri",
+  ],
+  domains: [
+    "General Study Basics",
+    "Stroke Terminology and Subtypes",
+    "RES-Q 3.0 Indicators",
+    "CRF Completion and Source Documents",
+    "Consent Procedures",
+    "Data Security and Entry",
+    "Protocol Deviations",
+  ],
+};

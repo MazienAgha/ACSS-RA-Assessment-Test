@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { APP_CONFIG } from "./data/config";
 import { studyGuideContent as studyGuideSections } from "./data/studyGuideContent";
 import { questionBank } from "./data/questionBank";
@@ -243,6 +244,8 @@ function App() {
           </>
         )}
       </main>
+
+      <SpeedInsights />
     </div>
   );
 }

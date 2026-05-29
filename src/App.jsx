@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { APP_CONFIG } from "./data/config";
 import { studyGuideContent as studyGuideSections } from "./data/studyGuideContent";
 import { questionBank } from "./data/questionBank";
@@ -243,6 +244,7 @@ function App() {
           </>
         )}
       </main>
+      <Analytics />
     </div>
   );
 }
